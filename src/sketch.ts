@@ -137,6 +137,8 @@ Mplayer.addListener({
     onPlay: () => {
         document.querySelector("#message")!.className = "inactive";
         console.log("player.onPlay");
+        multiple = 1;
+        score = 0;
     },
 
     onPause: () => {
