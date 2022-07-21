@@ -47,6 +47,15 @@ npm run dev
 npm run build
 ```
 
+##　起動
+
+以下のコマンドで本作品をお楽しみいただけます
+
+```sh
+npm start
+```
+
+
 ## 使用ライブラリ
 ```sh
 ・p5.js
