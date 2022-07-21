@@ -7,6 +7,10 @@
 
 [Node.js](https://nodejs.org/) をインストールしている環境で以下のコマンドを実行すると、開発用サーバが起動します。
 
+
+Uploading 画面収録 2022-07-21 18.36.05.mov…
+
+
 ```sh
 npm install
 npm run dev
