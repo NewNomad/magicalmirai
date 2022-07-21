@@ -21,7 +21,9 @@ npm run build
 ```
 
 ## 使用ライブラリ
+```sh
 ・p5.js
 ・matter-js
 ・typescript
 ・text-alive-api
+```
