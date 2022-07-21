@@ -1,0 +1,1 @@
+const updatePosition=o=>{o.x+=o.vx,o.y+=o.vy};

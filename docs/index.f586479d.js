@@ -1,0 +1,1 @@
+const createBlock=(c=0)=>({x:900,y:c,vx:-2,vy:0}),drawBlock=(c,e)=>{e.rect(c.x,c.y,80,400)},blockIsAlive=c=>-100<c.x;

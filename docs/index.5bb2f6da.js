@@ -1,0 +1,1 @@
+const createRain=()=>{const e=20*Math.random();return{x:800*Math.random(),y:500*Math.random()-500,z:e,len:e/2+10,yspeed:e+1}},fallRain=e=>{e.y=e.y+e.yspeed;const n=e.z/100;e.yspeed=e.yspeed+n,e.y>500&&(e.y=100*Math.random()-200,e.yspeed=e.z/4+5)},showRain=(e,n)=>{const t=e.z/10+1;n.strokeWeight(t),n.stroke(200),n.line(e.x,e.y,e.x,e.y+e.len),n.noStroke()};

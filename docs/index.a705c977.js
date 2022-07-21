@@ -1,0 +1,1 @@
+const createParticle=(e,l,r=0,o=0,a=50,t=[255,255,255])=>{let i=Math.random()*Math.PI*2;return{x:e,y:l,vx:2*Math.cos(i)+r,vy:2*Math.sin(i)+o,life:Math.random()*a+75,color:t}},decreaseLife=e=>{e.life-=2},particleIsAlive=e=>e.life>0,drawParticle=(e,l)=>{l.push(),l.noStroke(),l.fill(e.color[0],e.color[1],e.color[2],255*e.life/100),l.square(e.x,e.y,e.life/10),l.pop()};
