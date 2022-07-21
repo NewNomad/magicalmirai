@@ -1,6 +1,8 @@
 ## 概要
 作品名「歌は雨上がりのように」
 
+
+
 ## 開発
 
 [Node.js](https://nodejs.org/) をインストールしている環境で以下のコマンドを実行すると、開発用サーバが起動します。
@@ -19,4 +21,7 @@ npm run build
 ```
 
 ## 使用ライブラリ
----
+・p5.js
+・matter-js
+・typescript
+・text-alive-api
