@@ -1,9 +1,5 @@
-# TextAlive App API p5.js example
-
-TextAlive App API のサンプルコードで、 [p5.js](https://p5js.org/) を使った作例です。CodePenにアクセスすると、Webブラウザ上でこのアプリケーションのソースコードを編集できます。
-
-- デモページ: https://textalivejp.github.io/textalive-app-p5js/
-- CodePen: https://codepen.io/arcatdmz/pen/eYZXLbd
+## 概要
+作品名「歌は雨上がりのように」
 
 ## 開発
 
